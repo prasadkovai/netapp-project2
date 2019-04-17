@@ -1,0 +1,40 @@
+{
+  "name": "netapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-data-query": "^1.5.1",
+    "@progress/kendo-drawing": "^1.5.11",
+    "@progress/kendo-file-saver": "^1.0.7",
+    "@progress/kendo-react-animation": "^2.9.1",
+    "@progress/kendo-react-dateinputs": "^2.9.1",
+    "@progress/kendo-react-dropdowns": "^2.9.1",
+    "@progress/kendo-react-grid": "^2.9.1",
+    "@progress/kendo-react-inputs": "^2.9.1",
+    "@progress/kendo-react-intl": "^2.9.1",
+    "@progress/kendo-react-pdf": "^2.9.1",
+    "bootstrap": "^3.3.7",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.78.3"
+  },
+  "scripts": {
+    "start": "rimraf ./build && set PORT=3002 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
